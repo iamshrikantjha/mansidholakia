@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4350151ed007c50651fc914b6e6c6ab1",
+    "revision": "eadbe76b9fab0fd4c0ba819aea5a0771",
     "url": "/mansidholakia/index.html"
   },
   {
-    "revision": "1569ff86f026daa58d51",
-    "url": "/mansidholakia/static/css/2.1f5dcd6f.chunk.css"
+    "revision": "55e95531687599a41ac5",
+    "url": "/mansidholakia/static/css/2.3eee8024.chunk.css"
   },
   {
-    "revision": "267d602569160ececbda",
-    "url": "/mansidholakia/static/css/main.3c9d37d5.chunk.css"
+    "revision": "596250f6206435795159",
+    "url": "/mansidholakia/static/css/main.f8cab5ef.chunk.css"
   },
   {
-    "revision": "1569ff86f026daa58d51",
-    "url": "/mansidholakia/static/js/2.48e3069c.chunk.js"
+    "revision": "55e95531687599a41ac5",
+    "url": "/mansidholakia/static/js/2.aae33719.chunk.js"
   },
   {
     "revision": "24b8054ddc1445462862104fe5fc876e",
-    "url": "/mansidholakia/static/js/2.48e3069c.chunk.js.LICENSE.txt"
+    "url": "/mansidholakia/static/js/2.aae33719.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "267d602569160ececbda",
-    "url": "/mansidholakia/static/js/main.9a18c253.chunk.js"
+    "revision": "596250f6206435795159",
+    "url": "/mansidholakia/static/js/main.ca37ee8b.chunk.js"
   },
   {
     "revision": "5c3634b6376fd6def8c4",
@@ -46,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f4683e36f83c41ea5ae262d16a2577d7",
     "url": "/mansidholakia/static/media/blog_5.f4683e36.png"
-  },
-  {
-    "revision": "238c1d4604d9b97d1111800a1c5853cf",
-    "url": "/mansidholakia/static/media/darren.238c1d46.jpg"
   },
   {
     "revision": "c7fac338330d8e52ff463fae9ca66547",

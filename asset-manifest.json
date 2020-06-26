@@ -1,33 +1,32 @@
 {
   "files": {
-    "main.css": "/mansidholakia/static/css/main.3c9d37d5.chunk.css",
-    "main.js": "/mansidholakia/static/js/main.9a18c253.chunk.js",
-    "main.js.map": "/mansidholakia/static/js/main.9a18c253.chunk.js.map",
+    "main.css": "/mansidholakia/static/css/main.f8cab5ef.chunk.css",
+    "main.js": "/mansidholakia/static/js/main.ca37ee8b.chunk.js",
+    "main.js.map": "/mansidholakia/static/js/main.ca37ee8b.chunk.js.map",
     "runtime-main.js": "/mansidholakia/static/js/runtime-main.25065686.js",
     "runtime-main.js.map": "/mansidholakia/static/js/runtime-main.25065686.js.map",
-    "static/css/2.1f5dcd6f.chunk.css": "/mansidholakia/static/css/2.1f5dcd6f.chunk.css",
-    "static/js/2.48e3069c.chunk.js": "/mansidholakia/static/js/2.48e3069c.chunk.js",
-    "static/js/2.48e3069c.chunk.js.map": "/mansidholakia/static/js/2.48e3069c.chunk.js.map",
+    "static/css/2.3eee8024.chunk.css": "/mansidholakia/static/css/2.3eee8024.chunk.css",
+    "static/js/2.aae33719.chunk.js": "/mansidholakia/static/js/2.aae33719.chunk.js",
+    "static/js/2.aae33719.chunk.js.map": "/mansidholakia/static/js/2.aae33719.chunk.js.map",
     "index.html": "/mansidholakia/index.html",
-    "precache-manifest.ce23fe78df24ec73313ae80c43efa508.js": "/mansidholakia/precache-manifest.ce23fe78df24ec73313ae80c43efa508.js",
+    "precache-manifest.703dd7adafb016839d818803c1a747c3.js": "/mansidholakia/precache-manifest.703dd7adafb016839d818803c1a747c3.js",
     "service-worker.js": "/mansidholakia/service-worker.js",
-    "static/css/2.1f5dcd6f.chunk.css.map": "/mansidholakia/static/css/2.1f5dcd6f.chunk.css.map",
-    "static/css/main.3c9d37d5.chunk.css.map": "/mansidholakia/static/css/main.3c9d37d5.chunk.css.map",
-    "static/js/2.48e3069c.chunk.js.LICENSE.txt": "/mansidholakia/static/js/2.48e3069c.chunk.js.LICENSE.txt",
+    "static/css/2.3eee8024.chunk.css.map": "/mansidholakia/static/css/2.3eee8024.chunk.css.map",
+    "static/css/main.f8cab5ef.chunk.css.map": "/mansidholakia/static/css/main.f8cab5ef.chunk.css.map",
+    "static/js/2.aae33719.chunk.js.LICENSE.txt": "/mansidholakia/static/js/2.aae33719.chunk.js.LICENSE.txt",
     "static/media/blog_1.png": "/mansidholakia/static/media/blog_1.72701578.png",
     "static/media/blog_2.png": "/mansidholakia/static/media/blog_2.9adedbce.png",
     "static/media/blog_3.png": "/mansidholakia/static/media/blog_3.4cf3e7b1.png",
     "static/media/blog_4.png": "/mansidholakia/static/media/blog_4.058d07bb.png",
     "static/media/blog_5.png": "/mansidholakia/static/media/blog_5.f4683e36.png",
-    "static/media/darren.jpg": "/mansidholakia/static/media/darren.238c1d46.jpg",
     "static/media/hero.jpg": "/mansidholakia/static/media/hero.c7fac338.jpg",
     "static/media/hero3.jpg": "/mansidholakia/static/media/hero3.e3a95aed.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.25065686.js",
-    "static/css/2.1f5dcd6f.chunk.css",
-    "static/js/2.48e3069c.chunk.js",
-    "static/css/main.3c9d37d5.chunk.css",
-    "static/js/main.9a18c253.chunk.js"
+    "static/css/2.3eee8024.chunk.css",
+    "static/js/2.aae33719.chunk.js",
+    "static/css/main.f8cab5ef.chunk.css",
+    "static/js/main.ca37ee8b.chunk.js"
   ]
 }
