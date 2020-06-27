@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe0a771ff7e095de9395da84a500e35f",
+    "revision": "e8d23ff314d0270e3bbc6d0fee629d0d",
     "url": "/mansidholakia/index.html"
   },
   {
-    "revision": "d00aef3a3c6f22c6cdcd",
+    "revision": "d6b70736eeeecaf1f34f",
     "url": "/mansidholakia/static/css/2.3eee8024.chunk.css"
   },
   {
-    "revision": "d1a391630365515c6444",
+    "revision": "88ce33e730008ad4dbb9",
     "url": "/mansidholakia/static/css/main.f8cab5ef.chunk.css"
   },
   {
-    "revision": "d00aef3a3c6f22c6cdcd",
-    "url": "/mansidholakia/static/js/2.1ffd1049.chunk.js"
+    "revision": "d6b70736eeeecaf1f34f",
+    "url": "/mansidholakia/static/js/2.4f61cc66.chunk.js"
   },
   {
     "revision": "24b8054ddc1445462862104fe5fc876e",
-    "url": "/mansidholakia/static/js/2.1ffd1049.chunk.js.LICENSE.txt"
+    "url": "/mansidholakia/static/js/2.4f61cc66.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d1a391630365515c6444",
-    "url": "/mansidholakia/static/js/main.1f51270e.chunk.js"
+    "revision": "88ce33e730008ad4dbb9",
+    "url": "/mansidholakia/static/js/main.cb311b9e.chunk.js"
   },
   {
     "revision": "5c3634b6376fd6def8c4",
