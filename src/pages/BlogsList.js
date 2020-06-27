@@ -41,7 +41,7 @@ const BlogsList = (props) => {
         localStorage.setItem(`cat_id`, data.id);
         setBlogid();
         setBlogid(data.id);
-        await Axios.get(`http://3.6.126.134:8000/blogs/`+`${data.id}`).then((response) => {
+        await Axios.get(`https://3.6.126.134:8000/blogs/`+`${data.id}`).then((response) => {
         console.log(`I am content`);
         console.log(response);
         setBlogs(response.data);
@@ -57,7 +57,7 @@ const BlogsList = (props) => {
         console.log('====================================');
         console.log(`I am in yes local section`);
         console.log('====================================');
-        await Axios.get(`http://3.6.126.134:8000/blogs/`+`${cat_id}`).then((response) => {
+        await Axios.get(`https://3.6.126.134:8000/blogs/`+`${cat_id}`).then((response) => {
         console.log(`I am content local storage ${cat_id}`);
         console.log(response);
         setBlogs(response.data);

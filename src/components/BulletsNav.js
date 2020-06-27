@@ -51,12 +51,12 @@ const BulletsNav = () => {
             <Link className="navbar-item hero-nav-button lato" to="/category">
               Categories
             </Link>
-            <Link className="navbar-item hero-nav-button lato" to="/blogs">
+            {/* <Link className="navbar-item hero-nav-button lato" to="/blogs">
               Blogs
-            </Link>
-            <Link className="navbar-item hero-nav-button lato" to="/blog">
+            </Link> */}
+            {/* <Link className="navbar-item hero-nav-button lato" to="/blog">
               Blog
-            </Link>
+            </Link> */}
           </div>
         </div>
       </nav>

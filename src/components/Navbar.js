@@ -50,12 +50,12 @@ const Navbar = () => {
             <Link className="navbar-item hero-nav-button lato" to="/category">
               Categories
             </Link>
-            <Link className="navbar-item hero-nav-button lato" to="/blogs">
+            {/* <Link className="navbar-item hero-nav-button lato" to="/blogs">
               Blogs
-            </Link>
-            <Link className="navbar-item hero-nav-button lato" to="/blog">
+            </Link> */}
+            {/* <Link className="navbar-item hero-nav-button lato" to="/blog">
               Blog
-            </Link>
+            </Link> */}
             {/* <a className="navbar-item hero-nav-button lato">About</a>
             <a className="navbar-item hero-nav-button lato">Experience</a>
             <a className="navbar-item hero-nav-button lato">Plans</a>

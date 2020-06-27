@@ -3,11 +3,6 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
-import blog1 from "./../assets/images/blog_1.png";
-import blog2 from "./../assets/images/blog_2.png";
-import blog3 from "./../assets/images/blog_3.png";
-import blog4 from "./../assets/images/blog_4.png";
-import blog5 from "./../assets/images/blog_5.png";
 import PodcastCard from "./PodcastCard";
 import Axios from "axios";
 import ModalVideo from 'react-modal-video'
@@ -19,7 +14,7 @@ const PodcastOwl = () => {
 
   useEffect(() => {
     async function getdata() {
-      await Axios.get(`http://3.6.126.134:8000/podcasts/`).then((response) => {
+      await Axios.get(`https://3.6.126.134:8000/podcasts/`).then((response) => {
         console.log(`I am podcast`);
         console.log(response.data.length);
         setPods(response.data);

@@ -23,7 +23,7 @@ const BulletList = (props) => {
   
     React.useEffect(() => {
     async function getData() {
-      await Axios.get("http://3.6.126.134:8000/blogs/").then((response) => {
+      await Axios.get("https://3.6.126.134:8000/blogs/").then((response) => {
       console.log(`I am content`);
       console.log(response.data);
       // setCat(response.data);
