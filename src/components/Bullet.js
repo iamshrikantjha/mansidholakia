@@ -33,7 +33,7 @@ const Bullet = (props) => {
       console.log(`Info up above`);
 
       await Axios.get(
-        `https://3.6.126.134:8000/blogs/${data.id}/${data.slug}/`
+        `http://3.6.126.134:8000/blogs/${data.id}/${data.slug}/`
       ).then((response) => {
         console.log(response);
         console.table(response.data);
@@ -65,7 +65,7 @@ const Bullet = (props) => {
       async function getData() {
   
         await Axios.get(
-          `https://3.6.126.134:8000/blogs/${cat_id}/${blog_slug}/`
+          `http://3.6.126.134:8000/blogs/${cat_id}/${blog_slug}/`
         ).then((response) => {
           console.log(response);
           console.table(response.data);

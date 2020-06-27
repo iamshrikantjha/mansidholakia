@@ -14,7 +14,7 @@ const PodcastOwl = () => {
 
   useEffect(() => {
     async function getdata() {
-      await Axios.get(`https://3.6.126.134:8000/podcasts/`).then((response) => {
+      await Axios.get(`http://3.6.126.134:8000/podcasts/`).then((response) => {
         console.log(`I am podcast`);
         console.log(response.data.length);
         setPods(response.data);
