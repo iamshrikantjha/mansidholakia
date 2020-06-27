@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mansidholakia/static/css/main.f8cab5ef.chunk.css",
-    "main.js": "/mansidholakia/static/js/main.1a93e042.chunk.js",
-    "main.js.map": "/mansidholakia/static/js/main.1a93e042.chunk.js.map",
+    "main.js": "/mansidholakia/static/js/main.71a33370.chunk.js",
+    "main.js.map": "/mansidholakia/static/js/main.71a33370.chunk.js.map",
     "runtime-main.js": "/mansidholakia/static/js/runtime-main.25065686.js",
     "runtime-main.js.map": "/mansidholakia/static/js/runtime-main.25065686.js.map",
     "static/css/2.3eee8024.chunk.css": "/mansidholakia/static/css/2.3eee8024.chunk.css",
     "static/js/2.1ffd1049.chunk.js": "/mansidholakia/static/js/2.1ffd1049.chunk.js",
     "static/js/2.1ffd1049.chunk.js.map": "/mansidholakia/static/js/2.1ffd1049.chunk.js.map",
     "index.html": "/mansidholakia/index.html",
-    "precache-manifest.6ae289075355ab5fad994252b57ccc89.js": "/mansidholakia/precache-manifest.6ae289075355ab5fad994252b57ccc89.js",
+    "precache-manifest.a5b5eea9b0d41bb45061a6864a814843.js": "/mansidholakia/precache-manifest.a5b5eea9b0d41bb45061a6864a814843.js",
     "service-worker.js": "/mansidholakia/service-worker.js",
     "static/css/2.3eee8024.chunk.css.map": "/mansidholakia/static/css/2.3eee8024.chunk.css.map",
     "static/css/main.f8cab5ef.chunk.css.map": "/mansidholakia/static/css/main.f8cab5ef.chunk.css.map",
@@ -27,6 +27,6 @@
     "static/css/2.3eee8024.chunk.css",
     "static/js/2.1ffd1049.chunk.js",
     "static/css/main.f8cab5ef.chunk.css",
-    "static/js/main.1a93e042.chunk.js"
+    "static/js/main.71a33370.chunk.js"
   ]
 }

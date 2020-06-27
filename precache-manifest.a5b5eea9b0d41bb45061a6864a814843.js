@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a8365bbc902d8d6a766e7173d467ebab",
+    "revision": "12f13565cb46de0639fcc378ea887e4d",
     "url": "/mansidholakia/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mansidholakia/static/css/2.3eee8024.chunk.css"
   },
   {
-    "revision": "eda2e51b9813e2e03b5e",
+    "revision": "4889119e69cf85353c3d",
     "url": "/mansidholakia/static/css/main.f8cab5ef.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mansidholakia/static/js/2.1ffd1049.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eda2e51b9813e2e03b5e",
-    "url": "/mansidholakia/static/js/main.1a93e042.chunk.js"
+    "revision": "4889119e69cf85353c3d",
+    "url": "/mansidholakia/static/js/main.71a33370.chunk.js"
   },
   {
     "revision": "5c3634b6376fd6def8c4",
