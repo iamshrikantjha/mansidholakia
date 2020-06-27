@@ -11,7 +11,8 @@ import ScrollToTop from "../utility/ScrollToTop";
 const RouterX = () => {
   return (
     <>
-      <Router basename="/speaker">
+      <Router>
+      {/* <Router basename="/speaker"> */}
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
             <ScrollToTop />
@@ -26,7 +27,7 @@ const RouterX = () => {
             {/* <BulletList /> */}
             <BlogsList />
           </Route>
-          <Route path="/home">
+          <Route path="/">
             <Home />
           </Route>
         </Switch>

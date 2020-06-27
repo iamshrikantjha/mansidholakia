@@ -13,9 +13,9 @@ const App = () => {
 let history = useHistory();
   
   return (
-    // <div className="App">
+    <div className="App">
     <RouterX history={history}/>
-    // </div>
+    </div>
   );
 }
 
