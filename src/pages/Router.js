@@ -26,7 +26,7 @@ const RouterX = () => {
             {/* <BulletList /> */}
             <BlogsList />
           </Route>
-          <Route path="/">
+          <Route path="/home">
             <Home />
           </Route>
         </Switch>
