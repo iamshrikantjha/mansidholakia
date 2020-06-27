@@ -1,38 +1,262 @@
-.App {
-  text-align: center;
+/* NEON #C7FF00 */
+.navbar-menu {
+  animation: navAnimOpen .2s ease-in-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@keyframes navAnimOpen {
+0% {display: none;opacity: 0;max-height: 0;}
+1% {display: block;opacity: 0;}
+100% {opacity: 1;max-height: 396px;}
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+
+/* * {
+  font-family: "Lato", sans-serif;
+} */
+
+.font_0 {
+  font: normal normal normal 100px/1.4em playfairdisplay-bold,
+    "playfair display", serif;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 90px;
+  line-height: 1.4em;
+  font-family: playfairdisplay-bold, "playfair display", serif;
+  line-height: 1.4em;
+}
+
+.has-background-custom {
+  background-color: #d6ff00;
+}
+.has-background-custom-fit {
+  background-color: #d6ff00;
+  /* width: fit-content; */
+  /* height: 100%; */
+}
+
+.bgGreen {
+  background-color: #d6ff00;
+  width: max-content;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 50px;
+  justify-items: center;
+  align-items: center;
+}
+
+.bgGreen-t {
+  background-color: #d6ff00;
+  width: max-content;
+  display: flex;
+  flex: content;
+  flex-direction: column-reverse;
+  height: 50px;
+  justify-items: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 769px) {
+  .bgGreen {
+    height: 25px;
+  }
+  .bgGreen-t {
+    height: 25px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+@media only screen and (max-width: 1023px) and (min-width: 769px) {
+  .bgGreen-t {
+    height: 25px;
+  }
+  .nav-pad {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* UTILITIES */
+
+body {
+  overflow-x: hidden;
+}
+.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.cf-icon-color {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.cf-center {
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row {
+  flex: 1;
+  flex-direction: row;
+}
+
+.column {
+  flex: 1;
+  flex-direction: column;
+}
+
+/* HERO */
+
+.hero-button {
+  /* margin-top: 100px; */
+  background-color: #66ff00;
+}
+
+.hero-nav-button {
+  /* color: #66ff00; */
+}
+.hero-nav-button:hover {
+  color: white;
+}
+
+.hero-center-text {
+  font-family: "Libre Baskerville", serif;
+  font-weight: bolder;
+  font-size: 7rem;
+}
+
+/* CARD */
+
+.cf-card {
+  height: 231px;
+  position: absolute;
+  width: 100vw;
+  z-index: -1;
+}
+
+.abstry {
+  position: absolute;
+  z-index: 10000;
+  margin-top: 100px;
+}
+.abstry2 {
+  margin-top: 1000px;
+}
+
+.cf-card-back {
+  height: max-content;
+  width: 100vw;
+  /* height: initial; */
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex: 1;
+}
+
+.cf-card-info {
+  font-size: 0.9rem;
+  letter-spacing: 0.3px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+/* BLOG */
+
+.blog {
+  margin-top: 200px;
+}
+
+/* BLOGLIST */
+
+.bloglist-mid {
+  height: 180px;
+  position: absolute;
+  width: 100vw;
+  /* z-index: 2; */
+}
+
+.bloglist-mid2 {
+  height: 360px;
+  position: absolute;
+  width: 100vw;
+  /* z-index: 2; */
+}
+
+.bloglist-front {
+  /* height: 360px; */
+  z-index: 3;
+  /* position: absolute; */
+  /* width: 100vw; */
+}
+
+/* INSPIRATION */
+
+.cf-inspiration-back {
+  /* height: 162px; */
+  /* position: absolute; */
+  z-index: 0;
+}
+
+.cf-inspiration-mid {
+  height: 162px;
+  position: absolute;
+  width: 100vw;
+  /* z-index: 1; */
+}
+
+.cf-inspiration-front {
+  width: 100vw;
+  z-index: 3;
+}
+
+.i-color {
+  color: white;
+}
+
+/* CARD2 */
+
+.card2-back {
+  /* display: flex; */
+  z-index: 1;
+}
+.card2-mid {
+  display: flex;
+  flex: 1;
+  background-color: black;
+  position: absolute;
+  /* z-index: 2; */
+  /* height: auto; */
+}
+.card2-front {
+  /* z-index: 3; */
+}
+
+/* FAKE */
+.cf-fake-i {
+  height: 50vh;
+}
+
+/* BULLET */
+.bullet-post {
+  position: absolute;
+  z-index: 1;
+  width: 100vw;
+  /* margin-top: 400px; */
+  top: 500px;
+  /* left: 0; */
 }

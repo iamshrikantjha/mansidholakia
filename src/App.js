@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+// import "./debug.css";
+import "bulma/css/bulma.css";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
+import "react-modal-video/scss/modal-video.scss";
 
-function App() {
+import RouterX from "./pages/Router";
+
+import { useHistory } from "react-router-dom";
+
+const App = () => {
+let history = useHistory();
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div className="App">
+    <RouterX history={history}/>
+    // </div>
   );
 }
 
